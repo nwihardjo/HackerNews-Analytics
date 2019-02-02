@@ -6,9 +6,11 @@ This repo contains the code of J.P. Morgan Big Data Workshop by Cambridge Spark,
 
 There are two parts: Introduction to Apache Spark using the `war-and-peace.txt` file and the HackerNews Analysis using `HNStories.json` scraped from the [website](https://news.ycombinator.com/). 
 
+Codes were modified from its original repo. Use `load_libraries.ipynb` to test whether all the installation and dependencies have already been installed properly. 
+
 ## Installation
 
-### Download repo
+### Code
 `git clone` or download this repo to get the most part. 
 
 ### Downloading the data
@@ -26,11 +28,11 @@ $ git lfs pull
 
 ### Easiest
 
-The easiest way is to run the whole program on Databricks cluster which simply can be accessed through web browser. Sign up for the community edition and upload all notebook as well as the data (`war-and-peace.txt` and `HNStories.json`). 
+The easiest way is to run the whole program on [Databricks](https://community.cloud.databricks.com/) cluster which simply can be accessed through web browser. Simply sign up for the community edition and upload all notebook as well as the data (`war-and-peace.txt` and `HNStories.json`). 
 
-##
+## Easier
 
-You will need to install Anaconda for *Python 3.6* together with Java and the `pyspark` library.
+You will need to install [Anaconda](https://www.anaconda.com/download/) for *Python 3.6* together with Java and the `pyspark` library.
 
 ### Install Python
 
@@ -40,17 +42,6 @@ This includes python 3.6 and the necessary libraries we will be using: `numpy`, 
 ### Install Java
 
 Install Java 8 or higher from [https://java.com/en/download/help/index_installing.xml](https://java.com/en/download/help/index_installing.xml).
-
-### Create a directory for your project
-
-Create a fresh directory on the place of your choice on your computer. In this
-directory you will place some software as well as data. You will also store
-your own programs in there.
-
-If you have already created one to hold these instructions, feel free to use
-it.
-
-### Install Apache Spark
 
 Only after you've done the instructions above, open a terminal (or CMD line on Windows) and run the following command to install `pyspark`:
 ```
@@ -71,8 +62,9 @@ Execute the first cell to make sure you have all of the required libraries.
 
 ### Windows
 
-Run a jupyter notebook by following the instruction here: http://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/execute.html
+Run a jupyter notebook by following the instruction [here](http://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/execute.html)
 
 Use it to open the file `load_libraries.ipynb`. 
 
 Execute the first cell to make sure you have all of the require libraries.
+
