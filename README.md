@@ -26,20 +26,20 @@ $ git lfs pull
 
 ## Dependencies
 
-### Easiest
+### Databricks Cluster
 
 The easiest way is to run the whole program on [Databricks](https://community.cloud.databricks.com/) cluster which simply can be accessed through web browser. Simply sign up for the community edition and upload all notebook as well as the data (`war-and-peace.txt` and `HNStories.json`). 
 
-## Easier
+### Locally
 
 You will need to install [Anaconda](https://www.anaconda.com/download/) for *Python 3.6* together with Java and the `pyspark` library.
 
-### Install Python
+#### Install Python
 
 Install Anaconda (**Python 3.6**) from:  [https://www.anaconda.com/download/](https://www.anaconda.com/download/).
 This includes python 3.6 and the necessary libraries we will be using: `numpy`, `matplotplib`.
 
-### Install Java
+#### Install Java
 
 Install Java 8 or higher from [https://java.com/en/download/help/index_installing.xml](https://java.com/en/download/help/index_installing.xml).
 
@@ -67,4 +67,3 @@ Run a jupyter notebook by following the instruction [here](http://jupyter-notebo
 Use it to open the file `load_libraries.ipynb`. 
 
 Execute the first cell to make sure you have all of the require libraries.
-
