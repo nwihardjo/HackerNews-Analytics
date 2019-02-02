@@ -1,12 +1,34 @@
-Below are setup instructions for the Big Data course. The prefered OS is Unix based (e.g. Ubuntu) or Mac OSX.
+# HackerNews Analysis with Apache Spark
 
-You will need to complete the setup steps below to install the necessary software on your
-machine. First, make sure to download this repository so you have all the files. 
+## tl;dr
 
-http://gitlab.cambridgespark.com/pub/bigdata-spark.git
+This repo contains the code of J.P. Morgan Big Data Workshop by Cambridge Spark, cloned from [here](http://gitlab.cambridgespark.com/pub/bigdata-spark.git).
 
+There are two parts: Introduction to Apache Spark using the `war-and-peace.txt` file and the HackerNews Analysis using `HNStories.json` scraped from the [website](https://news.ycombinator.com/). 
 
-## Setup
+## Installation
+
+### Download repo
+`git clone` or download this repo to get the most part. 
+
+### Downloading the data
+As this repo utilises `git lfs` to store `HNStories.json` as the file larger than 100MB, install git lfs in advance through [here](https://github.com/git-lfs/git-lfs/releases/tag/v2.6.1) or just navigate through its [website](https://git-lfs.github.com/). When you only clone or download this repo, `HackerNews.json` will contain only the pointer of the real file stored in the `git lfs` server.
+
+After installing `git lfs`, navigate through the project root folder using either command prompt in Windows or terminal in \*NIX, then type this command, 
+```bash
+$ git lfs install
+
+$ git lfs pull
+# this will download the real data file consisting ~400MB which going to take some time
+```
+
+## Dependencies
+
+### Easiest
+
+The easiest way is to run the whole program on Databricks cluster which simply can be accessed through web browser. Sign up for the community edition and upload all notebook as well as the data (`war-and-peace.txt` and `HNStories.json`). 
+
+##
 
 You will need to install Anaconda for *Python 3.6* together with Java and the `pyspark` library.
 
