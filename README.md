@@ -2,9 +2,9 @@
 
 ## tl;dr
 
-This repo contains the code of J.P. Morgan Big Data Workshop by Cambridge Spark, cloned from [here](http://gitlab.cambridgespark.com/pub/bigdata-spark.git).
+This repo contains code for J.P. Morgan Big Data Workshop by Cambridge Spark, cloned from [here](http://gitlab.cambridgespark.com/pub/bigdata-spark).
 
-There are two parts: Introduction to Apache Spark using the `war-and-peace.txt` file and the HackerNews Analysis using `HNStories.json` scraped from the [website](https://news.ycombinator.com/). 
+There are two parts: Introduction to Apache Spark (`Spark.ipynb`) using the `war-and-peace.txt` file and the HackerNews Analysis (`HackerNews\ Challenge.ipynb`) using `HNStories.json` scraped from the [website](https://news.ycombinator.com/). 
 
 Codes were modified from its original repo. Use `load_libraries.ipynb` to test whether all the installation and dependencies have already been installed properly. 
 
